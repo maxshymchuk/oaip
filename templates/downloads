@@ -1,0 +1,19 @@
+<div class="group1">
+  <div>
+    {{{number}}}
+  </div>
+  <div class="fbname">
+    {{#link}}
+    <a href="{{{link}}}">
+    {{/link}}
+      {{{name}}}
+    {{#link}}
+    </a>
+    {{/link}}
+  </div>
+</div>
+<div class="group2">
+  <div>
+    {{{size}}}
+  </div>
+</div>

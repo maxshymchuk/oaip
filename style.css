@@ -1,0 +1,188 @@
+@font-face {
+	font-family: OpenGostTypeA;
+	src: url(resources/OpenGostTypeA-Regular.ttf);
+}
+
+@font-face {
+	font-family: Snowstorm;
+	src: url(resources/Snowstorm.ttf);
+}
+
+body {
+	margin: 0;	
+	color: #000;	
+	background-color: #EEE;
+	font-family: OpenGostTypeA, Calibri;
+	-ms-user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    user-select: none; 
+	cursor: default;
+	font-size: 22px;
+}
+
+a {
+	cursor: pointer;
+	color: #0000FF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF0000;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.headerPanel {
+	height: 120px;
+	color: #000;
+	font-family: Snowstorm, Calibri;
+	transition: 0.2s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a.button {
+	position: relative;
+	padding: 0 5px;
+	color: #000;
+	display: inline-block;
+	line-height: 30px;
+	min-width: 20px;
+	text-decoration: none;	
+	transition: 0.2s ease-in-out;
+}	
+
+a.button:hover {
+	color: #EEE;
+}
+
+a.button::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 0;		
+	background-color: #000;
+	transition: 0.2s ease-in-out;
+}
+
+a.button:hover::before{
+	height: 100%;
+}
+
+.header {
+	padding: 0 75px;
+	letter-spacing: 5px;
+	line-height: 90px;
+	font-size: 80px;
+	transition: 0.2s ease-in-out;
+}
+
+#semester {
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+#table {
+	clear: both;
+}
+
+#fblock:first-child {
+	text-transform: uppercase;
+}
+
+#fblock:nth-child(even) {
+	background-color: rgba(0,0,0,0.1);
+} 
+
+#fblock {
+	display: flex;
+	padding: 5px 0;
+	min-height: 30px;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	transition-duration: 0.2s;
+}
+
+.group1, .group2 {
+	display: flex;
+	align-items: center;
+}
+
+.group1 div:first-child {
+	min-width: 40px;
+}
+
+.group2 div {
+	text-transform: uppercase;
+	min-width: 80px;
+}	
+
+.fbname {	
+	max-width: 620px;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;	
+}
+
+.fbname span {
+	text-transform: uppercase;
+	vertical-align: super;
+	font-size: 0.6em;
+	white-space: nowrap;
+}
+
+.footer {
+	text-align: right;
+  line-height: 40px;
+}
+
+.game {
+	display: block;
+	float: left; 
+}
+
+@media (max-width: 800px) {
+	.headerPanel {
+		height: 60px;		
+	}
+	a.button {
+		font-size: 20px;
+	}
+	.subTitle {
+		display: none;
+	}
+	.header {
+		padding: 0 45px;
+		line-height: 40px;
+		font-size: 30px;		
+	}
+	#semester {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	#fblock {
+		min-height: 20px;
+	}	
+	.group1 div:first-child {
+		min-width: 30px;
+	}
+	.group2 div:nth-child(n) {
+		display: none;
+	}
+	.group2 div:nth-child(1) {
+		display: block;
+	}
+	.footer {
+		display: none;
+	}
+}
+

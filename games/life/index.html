@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game of Life</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script async src="script.js"></script>
+</head>
+<body onload="init()">
+  <div class="container">
+    <div class="siteTitle">
+      Game of Life
+    </div>
+    <div class="canvasField">
+      <div class="controlPanel">
+        <button id="playPauseButton" onclick="playpause()">
+          PLAY
+        </button>
+        <button id="stepButton" onclick="step()">
+          STEP
+        </button>
+        <button id="randomButton" onclick="randomField()">
+          RAND
+        </button>
+        <button id="clearButton" onclick="clearField()">
+          CLEAR
+        </button>
+      </div>
+      <canvas id="field" width="400" height="400"></canvas>
+      <div class="controlPanel">
+        <div class="trigger">
+          <div class="title">
+            BORDER
+          </div>
+          <label class="switch">
+            <input id="borderSwitch" type="checkbox" onchange="changeParams()" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,339 @@
+{
+  "downloads": {
+    "title": {
+      "number": "№",
+      "name": "Название",
+      "size": "Размер"
+    },
+    "downloads": {
+      "1": {
+        "number": "1",
+        "name": "Учебно-методическое пособие по ОАиП (часть 1)",
+        "link": "https://1drv.ms/w/s!AiJ-cg7lWxDqjvx9oePflJOkOQ-Ovw",
+        "size": "1.43 MB"
+      },
+      "2": {
+        "number": "2",
+        "name": "Учебно-методическое пособие по ОАиП (часть 2)",
+        "link": "https://1drv.ms/w/s!AiJ-cg7lWxDqjv0xE9zKO8sHZqTcBA",
+        "size": "1.38 MB"
+      },
+      "3": {
+        "number": "3",
+        "name": "Borland C++ Builder Enterprise v6.0 + KeyGen",
+        "link": "https://1drv.ms/u/s!AiJ-cg7lWxDqjoh58bGn9PhdGu3TFQ",
+        "size": "191 MB"
+      }
+    }
+  },
+  "table": {
+    "title": {
+      "number": "№",
+      "name": "Название",
+      "variant": "Вариант",
+      "type": "Тип",
+      "ide": "Среда"
+    },
+    "semester1": {
+      "1": {
+        "number": "3",
+        "name": "Реализация циклических алгоритмов",
+        "link": "projects/1-3-7.zip",
+        "author": "Vlad Pekarskiy",
+        "variant": "7",
+        "type": "window",
+        "ide": "builder"
+      },
+      "2": {
+        "number": "3",
+        "name": "Реализация циклических алгоритмов",
+        "link": "projects/1-3-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "builder"
+      },
+      "3": {
+        "number": "4",
+        "name": "Обработка одномерных массивов",
+        "link": "projects/1-4-7.zip",
+        "author": "Vlad Pekarskiy",
+        "variant": "7",
+        "type": "window",
+        "ide": "builder"
+      },
+      "4": {
+        "number": "4",
+        "name": "Обработка одномерных массивов",
+        "link": "projects/1-4-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "win/con",
+        "ide": "builder"
+      },
+      "5": {
+        "number": "4",
+        "name": "Обработка одномерных массивов",
+        "link": "projects/1-4-9.zip",
+        "author": "Dmitriy Tomilin",
+        "variant": "9",
+        "type": "console",
+        "ide": "visual"
+      },
+      "6": {
+        "number": "5",
+        "name": "Обработка двухмерных динамических массивов",
+        "link": "projects/1-5-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "builder"
+      },
+      "7": {
+        "number": "5",
+        "name": "Обработка двухмерных динамических массивов",
+        "link": "projects/1-5-9.zip",
+        "author": "Dmitriy Tomilin",
+        "variant": "9",
+        "type": "console",
+        "ide": "visual"
+      },
+      "8": {
+        "number": "6",
+        "name": "Использование строк",
+        "link": "projects/1-6-7.zip",
+        "author": "Max Shymchuk",
+        "variant": "7",
+        "type": "console",
+        "ide": "visual"
+      },
+      "9": {
+        "number": "6",
+        "name": "Использование строк",
+        "link": "projects/1-6-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "window",
+        "ide": "builder"
+      },
+      "10": {
+        "number": "6",
+        "name": "Использование строк",
+        "link": "projects/1-6-9.zip",
+        "author": "Dmitriy Tomilin",
+        "variant": "9",
+        "type": "console",
+        "ide": "visual"
+      },
+      "11": {
+        "number": "7",
+        "name": "Обработка структур с использованием файлов",
+        "link": "projects/1-7-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "window",
+        "ide": "builder"
+      },
+      "12": {
+        "number": "8",
+        "name": "Функции пользователя",
+        "link": "projects/1-8-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "builder"
+      },
+      "13": {
+        "number": "8",
+        "name": "Функции пользователя",
+        "link": "projects/1-8-9.zip",
+        "author": "Dmitriy Tomilin",
+        "variant": "9",
+        "type": "console",
+        "ide": "builder"
+      },
+      "14": {
+        "number": "9",
+        "name": "Отображение графической информации",
+        "link": "projects/1-9-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "window",
+        "ide": "builder"
+      } 
+    },
+    "semester2": {
+      "1": {
+        "number": "1",
+        "name": "Рекурсивные функции",
+        "link": "projects/2-1-7.zip",
+        "author": "Max Shymchuk",
+        "variant": "7",
+        "type": "console",
+        "ide": "visual"
+      },
+      "2": {
+        "number": "1",
+        "name": "Рекурсивные функции",
+        "link": "projects/1-8-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "builder"
+      },
+      "3": {
+        "number": "1",
+        "name": "Рекурсивные функции",
+        "link": "projects/1-8-9.zip",
+        "author": "Dmitriy Tomilin",
+        "variant": "9",
+        "type": "console",
+        "ide": "builder"
+      },
+      "4": {
+        "number": "2",
+        "name": "Динамическая структура стек",
+        "link": "projects/2-2-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "visual"
+      },
+      "5": {
+        "number": "3",
+        "name": "Динамическая структура очередь (однонаправленная)",
+        "link": "projects/2-3-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "visual"
+      },
+      "6": {
+        "number": "4",
+        "name": "Динамическая структура очередь (двунаправленная)",
+        "link": "projects/2-4-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "visual"
+      },
+      "7": {
+        "number": "5",
+        "name": "Нелинейные списки",
+        "link": "projects/2-5-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "visual"
+      },
+      "8": {
+        "number": "6",
+        "name": "Алгоритмы поиска и сортировки в массивах",
+        "link": "projects/2-6-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "visual"
+      },
+      "9": {
+        "number": "7",
+        "name": "Алгоритмы поиска корней уравнений",
+        "link": "projects/2-7-8.zip",
+        "author": "Max Shymchuk",
+        "variant": "8",
+        "type": "console",
+        "ide": "visual"
+      },
+      "10": {
+        "number": "5",
+        "name": "Нелинейные списки",
+        "link": "projects/2-5-7.zip",
+        "author": "Max Shymchuk",
+        "variant": "7",
+        "type": "console",
+        "ide": "visual"
+      },
+      "11": {
+        "number": "6",
+        "name": "Алгоритмы поиска и сортировки в массивах",
+        "link": "projects/2-6-7.zip",
+        "author": "Max Shymchuk",
+        "variant": "7",
+        "type": "console",
+        "ide": "visual"
+      },
+      "12": {
+        "number": "4",
+        "name": "Динамическая структура очередь (двунаправленная)",
+        "link": "projects/2-4-7.zip",
+        "author": "Max Shymchuk",
+        "variant": "7",
+        "type": "console",
+        "ide": "visual"
+      },
+      "13": {
+        "number": "7",
+        "name": "Алгоритмы поиска корней уравнений",
+        "link": "projects/2-7-7.zip",
+        "author": "Max Shymchuk",
+        "variant": "7",
+        "type": "console",
+        "ide": "visual"
+      },
+      "14": {
+        "number": "1",
+        "name": "Рекурсивные функции",
+        "link": "projects/1-8-5.zip",
+        "author": "Max Shymchuk",
+        "variant": "5",
+        "type": "console",
+        "ide": "visual"
+      },
+      "15": {
+        "number": "2",
+        "name": "Динамическая структура стек",
+        "link": "projects/2-2-5.zip",
+        "author": "Max Shymchuk",
+        "variant": "5",
+        "type": "console",
+        "ide": "visual"
+      },
+      "16": {
+        "number": "6",
+        "name": "Алгоритмы поиска и сортировки в массивах",
+        "link": "projects/2-6-2.zip",
+        "author": "Dmitriy Nikitenko",
+        "variant": "2",
+        "type": "console",
+        "ide": "builder"
+      },
+      "17": {
+        "number": "6",
+        "name": "Алгоритмы поиска и сортировки в массивах",
+        "link": "projects/2-6-10.zip",
+        "author": "Max Shymchuk",
+        "variant": "10",
+        "type": "console",
+        "ide": "visual"
+      },
+      "18": {
+        "number": "4",
+        "name": "Динамическая структура очередь (двунаправленная)",
+        "link": "projects/2-4-4.zip",
+        "author": "Max Shymchuk",
+        "variant": "4",
+        "type": "console",
+        "ide": "visual"
+      },
+      "19": {
+        "number": "7",
+        "name": "Алгоритмы поиска корней уравнений",
+        "link": "projects/2-7-2.zip",
+        "author": "Dmitriy Nikitenko",
+        "variant": "2",
+        "type": "window",
+        "ide": "builder"
+      }
+    }
+  }
+}
