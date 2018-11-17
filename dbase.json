@@ -35,6 +35,24 @@
       "ide": "Среда"
     },
     "semester1": {
+      "-1": {
+        "number": "2",
+        "name": "Реализация циклических алгоритмов",
+        "link": "projects/1-2-1.zip",
+        "author": "Max Shymchuk",
+        "variant": "1",
+        "type": "console",
+        "ide": "visual"
+      },
+      "0": {
+        "number": "3",
+        "name": "Реализация циклических алгоритмов",
+        "link": "projects/1-3-1.zip",
+        "author": "Max Shymchuk",
+        "variant": "1",
+        "type": "console",
+        "ide": "visual"
+      },
       "1": {
         "number": "3",
         "name": "Реализация циклических алгоритмов",
@@ -52,6 +70,15 @@
         "variant": "8",
         "type": "console",
         "ide": "builder"
+      },
+      "2.1": {
+        "number": "4",
+        "name": "Обработка одномерных массивов",
+        "link": "projects/1-5-1.zip",
+        "author": "Max Shymchuk",
+        "variant": "1",
+        "type": "console",
+        "ide": "visual"
       },
       "3": {
         "number": "4",
