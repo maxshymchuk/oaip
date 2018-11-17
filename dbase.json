@@ -37,7 +37,7 @@
     "semester1": {
       "-1": {
         "number": "2",
-        "name": "Реализация циклических алгоритмов",
+        "name": "Реализация разветвляющихся алгоритмов",
         "link": "projects/1-2-1.zip",
         "author": "Max Shymchuk",
         "variant": "1",
