@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "MontserratExtraBold";
+  src: url("fonts/Montserrat-ExtraBold.otf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(0,0,0,.2);
+}
+
+canvas {
+  width: 500px;
+  height: 500px;
+  background: white;
+  display: block;
+}
+
+.app {
+  width: 980px;
+  margin: 0 auto;
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+}
+
+#menu {
+  width: 200px;
+  /* background: green; */
+  font-family: MontserratExtraBold;
+}
+
+#menu .menu_panel {
+  line-height: 40px;
+  padding: 0 10px;
+}

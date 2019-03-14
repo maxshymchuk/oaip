@@ -160,6 +160,7 @@ a.button:hover::before{
 .game {
 	display: block;
 	float: left; 
+  margin-right: 20px;
 }
 
 @media (max-width: 800px) {
