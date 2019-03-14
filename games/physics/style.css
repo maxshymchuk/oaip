@@ -3,34 +3,67 @@
   src: url("fonts/Montserrat-ExtraBold.otf");
 }
 
+input {
+  font-family: MontserratExtraBold;
+  border: 0;
+  border-radius: 20px;
+  background-color: rgba(0,0,0,.1);
+  padding: 0 10px;
+  margin: 0 10px;
+  width: 100px;
+}
+
+input:focus {
+  outline: 0;
+}
+
 body {
   padding: 0;
   margin: 0;
-  background: rgb(0,0,0,.2);
 }
 
 canvas {
-  width: 500px;
-  height: 500px;
-  background: white;
   display: block;
+  background: white;
+  box-shadow: 0 0 0 1px #000;
 }
 
-.app {
-  width: 980px;
-  margin: 0 auto;
+#app {
   /* background: red; */
-  display: flex;
-  justify-content: center;
 }
 
 #menu {
-  width: 200px;
-  /* background: green; */
   font-family: MontserratExtraBold;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#menu .menu_panel {
-  line-height: 40px;
+#menu .menu_line {
+  display: flex;
+  line-height: 30px;
+}
+
+#menu #label_tick {
   padding: 0 10px;
+}
+
+#menu #button_confirm {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  background-image: url(images/icon.svg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 50%;
+  color: #FFF;
+  cursor: pointer;
+  transition: box-shadow .3s;
+}
+
+#menu #button_confirm:hover {
+  box-shadow: 0 0 10px 0 #FF0000;
 }

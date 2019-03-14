@@ -2,20 +2,47 @@ function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function getField(field, cellSize) {
+function getPlaces(field, cellSize) {
   const places = [];
   const width = Math.trunc(field.width / cellSize);
   const height = Math.trunc(field.height / cellSize);
-  console.log(width);
-  console.log(height);
+  console.log(`Field width: ${width}`);
+  console.log(`Field height: ${height}`);
   for (let i = 0; i < width * height; i++) {
     places[i] = {
       x: Math.trunc(i % width) * cellSize + cellSize / 2, 
-      y: Math.trunc(i / height) * cellSize + cellSize / 2,
+      y: Math.trunc(i / width) * cellSize + cellSize / 2,
     };
   }
-  console.log(places);
   return places;
+}
+
+function getField() {
+  const places = getPlaces({
+    width: FIELD_WIDTH_PX, 
+    height: FIELD_HEIGHT_PX
+  }, GRID_CELL_SIZE_PX);
+  const cells = [];
+  for (let i = 0; i < cellsNumber; i++) {
+    const family = families[random(0, families.length - 1)];
+    cells[i] = {
+      family: family.name,
+      color: family.color,
+      speed: {
+        x: 0,
+        y: 0
+      },
+      pos: (() => {
+        const pos = random(0, places.length - 1);
+        const res = places[pos];
+        places.splice(pos, 1);
+        return res;
+      })(),
+      density: family.density,
+      mass: family.mass,
+    }
+  }
+  return cells;
 }
 
 function display(cells) {
@@ -49,19 +76,8 @@ function distance(p1, p2) {
   return Math.sqrt(dx * dx + dy * dy);
 }
 
-function info(...params) {
-  params.forEach((v, i) => {
-    const elem = document.getElementById(`menu_line${i}`);
-    elem.innerText = v;
-  });
-}
-
-function normalize(v) {
-  while (v.x < -1 || v.x > 1 || v.y < -1 || v.y > 1) {
-    v.x /= 10;
-    v.y /= 10;
-  }
-  return v;
+function info() {
+  document.getElementById('label_tick').innerText = time;
 }
 
 function vabs(v) {
@@ -71,9 +87,21 @@ function vabs(v) {
 function getVector(p1, p2, length, value) {
   const dx = p2.x - p1.x;
   const dy = p2.y - p1.y;
-  const coeff = value / length;
+  const coeff = length != 0 ? value / length : 0;
   return {
     x: dx * coeff,
     y: dy * coeff
   }
+}
+
+function restart() {
+  console.log('-- RESTART --');
+  cellsNumber = document.getElementById('input_cells_count').value;
+  tick = document.getElementById('input_delay').value;
+  time = 0;
+  cells = getField();
+  clearInterval(timer);
+  display(cells);
+  info();
+  timer = setInterval(() => main(), tick);
 }

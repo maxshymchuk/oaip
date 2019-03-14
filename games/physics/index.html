@@ -4,23 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Physics</title>
   <link rel="stylesheet" href="style.css">
   <script async src="scripts/functions.js"></script>
-  <script async src="scripts/config.js"></script>
   <script async src="scripts/script.js"></script>
 </head>
 <body>
-  <div class="app">
+  <div id="app">
     <div id="menu">
-      <div class="menu_panel">
+      <div>
+        <div class="menu_line">
+            Tick<div id="label_tick">0</div>
+        </div>
+        <div class="menu_line">
+          Cells Number<input type="text" id="input_cells_count" value="250" required />
+          Delay<input type="text" id="input_delay" value="20" required />
+        </div>
+      </div>
+      <div id="button_confirm" onclick="restart()"></div>
+      <!-- <div class="menu_panel">
         <span>Tick</span>
         <span id="menu_line0"></span>
       </div>
       <div class="menu_panel">
         <span>Delay</span>
         <span id="menu_line1"></span>
-      </div>
+      </div> -->
     </div>
     <canvas id="canvas"></canvas>
   </div>
